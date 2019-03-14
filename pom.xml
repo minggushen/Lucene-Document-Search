@@ -75,8 +75,6 @@
 			<version>3.0.1</version>
 		</dependency>
 		<!-- Lucene start -->
-
-
 		<dependency>
 			<groupId>org.apache.lucene</groupId>
 			<artifactId>lucene-core</artifactId>
@@ -107,21 +105,18 @@
 			<artifactId>commons-digester</artifactId>
 			<version>1.7</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox-lucene -->
 		<dependency>
 			<groupId>org.apache.pdfbox</groupId>
 			<artifactId>pdfbox-lucene</artifactId>
 			<version>1.8.10</version>
 		</dependency>
-		<!-- To include highlight support -->
+
 		<dependency>
 			<groupId>org.apache.lucene</groupId>
 			<artifactId>lucene-highlighter</artifactId>
 			<version>${lucene.version}</version>
 		</dependency>
 
-
-		<!-- Lucene end -->
 
 	</dependencies>
 
